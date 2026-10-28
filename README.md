@@ -1,6 +1,6 @@
-# Compass privacy site
+# Nordkompass privacy site
 
-Public GitHub Pages source for the Compass privacy policy.
+Public GitHub Pages source for the Nordkompass privacy policy.
 
 **Live:** <https://olavxxx.github.io/compass-privacy/>
 

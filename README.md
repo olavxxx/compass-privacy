@@ -2,28 +2,18 @@
 
 Public GitHub Pages source for the Compass privacy policy.
 
-Live URL (once Pages is enabled):
+**Live:** <https://olavxxx.github.io/compass-privacy/>
 
-```
-https://olavxxx.github.io/compass-privacy/
-```
+Pages is deployed from `main` / root. Verified live on 2026-10-28 (HTTP 200, contact
+`olavamjelde@gmail.com`, English and Norwegian sections present).
 
-## One-time setup
+## Updating
 
-1. Create a **public** repository `olavxxx/compass-privacy` on GitHub.
-2. Push this folder to it:
+`index.html` is the same file as `android-compass/store/privacy-policy.html`. When the policy changes:
 
-   ```powershell
-   git remote add origin git@github.com:olavxxx/compass-privacy.git
-   git branch -M main
-   git push -u origin main
-   ```
+1. Edit `android-compass/store/privacy-policy.html` and bump its date.
+2. Copy it over `index.html` here.
+3. Commit and push both repositories. Pages redeploys from `main` automatically.
 
-3. In the repository: **Settings → Pages → Build and deployment**
-   - Source: **Deploy from a branch**
-   - Branch: `main`, folder `/ (root)`
-4. Wait for the green Pages deployment, then open the URL and confirm it loads.
-5. Put the same URL in `android-compass/store/listing.md` (already pre-filled).
-
-`index.html` is the same file as `android-compass/store/privacy-policy.html`; update both when the
-policy changes.
+Do not add analytics, external fonts, or scripts: the point of the page is the same as the app's —
+nothing leaves the device.
